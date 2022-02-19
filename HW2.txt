@@ -1,0 +1,22 @@
+Training set คือชุดข้อมูลกลุ่มหนึ่งที่ใช้ในการหา model เพื่อ predict ข้อมูล
+จากนั้นนำ model ที่ได้มาทำนายข้อมูลชุดหนึ่ง ซึ่งข้อมูลชุดนั้นเรียกว่า Test set
+
+Precision = d/(d + b) = TP/(TP + FP)
+Recall = d/(d+c) = TP/(TP + FN)
+F-measure = 2 (Precision x Recall)/(Precision + Recall)
+a	b
+c	d
+
+TN	FP
+FN	TP
+
+Precision=30/(30+10) = 0.75
+Recall=30/(30+20) = 0.6
+F-measure=2(0.75*0.6)/(0.75+0.6) = 0.67
+
+การจำแนกข้อมูลนาฬิกา Baby G ว่าเป็นของแท้หรือของปลอม
+โดย class label คือของแท้/ของปลอม และมี
+attribute set เช่น น้ำหนัก ขนาดหน้าปัด ความชัดของโลโก จำนวนฟังก์ชันใช้งาน
+
+
+https://www.youtube.com/watch?v=LMrW9lkX-TA&ab_channel=CodingwithHaiTran'
